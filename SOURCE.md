@@ -1,65 +1,83 @@
-HEADING
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML Album Cover</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="front" class="album">
+        <div id="title-box">
 
-`Welcome to Riyadh`
+          <!-- Level 4 'PHARRELL WILLIAMS' Header -->
+           <h4 class="title">PHARRELL WILLIAMS</h4>
+        
 
-SUB HEAD
+          <!-- Level 2 'HAPPY' Header -->
+          <h2 class="subtitle">HAPPY</h2>
 
-`Where A Traditional Past Meets A Modern Future.`
+          <!-- Level 4 '| FROM DESPICABLE ME...' Header -->
+          <h4>FROM DESPICABLE ME 2</h4>
 
-IMAGE 1 FILE
 
-`transit.jpg`
+        </div>
+      </div>
+<div id="back" class="album">
+  <!-- h3 for source (without | symbols) -->
+  <h3 class="from">FROM DESPICABLE ME 2</h3>
+  
+  <!-- h1 for song title -->
+  <h1 class="subtitle">HAPPY</h1>
 
-IMAGE 1 ALT TEXT
+  <!-- h3 for writing credits -->
+  <h3 class="written-by">WRITTEN BY PHARRELL WILLIAMS</h3>
 
-`Modern Transit`
+  <!-- Full paragraph -->
+  <p class="published-by">
+    PUBLISHED BY EMI APRIL MUSIC, INC. OBO ITSELF AND MORE WATERFROM NAZARETH (ASCAP) / UNIVERSAL PICTURES MUSIC (ASCAP) |
+    BACKGROUND VOCALS PERFORMED BY RHEA DUMMETT, TREVON HENDERSON, ASHLEY L. LEE, SHAMIKA HIGHTOWER, JASMINE MURRAY AND TERRENCE ROLLE |
+    PRODUCED BY PHARRELL WILLIAMS |
+    RECORDED BY MIKE LARSON FOR I AM OTHER ENTERTAINMENT AT CIRCLE HOUSE STUDIOS, MIAMI, FL |
+    ASSISTED BY MATTHEW DESRAMEAUX |
+    DIGITAL EDITING AND ARRANGEMENT BY ANDREW COLEMAN AND MIKE LARSON FOR I AM OTHER ENTERTAINMENT |
+    MIXED BY LESLIE BRATHWAITE AT MUSIC BOX STUDIOS, ATLANTA, GA.
+  </p>
 
-SMALLER SUB HEAD
+  <span class="website">PHARRELLWILLIAMS.COM</span><br>
+  <img class="columbia-logo" src="https://s3.amazonaws.com/learn-verified/columbia-logo.png" alt="Columbia Records Logo">
+  <span class="website">COLUMBIARECORDS.COM</span><br>
+  <img class="sony-logo" src="https://s3.amazonaws.com/learn-verified/sony-logo.png" alt="Sony Music Logo">
+</div>
 
-`Travel`
+      <div class="credits">
 
-PARAGRAPH 1
+        <!-- Level 1 'HAPPY' Header -->
+        <h1 class="title">HAPPY</h1>
+        <!-- Level 2 'PHARRELL WILLIAMS' Header -->
+        <h2 class="subtitle">PHARRELL WILLIAMS</h2>
 
-`Once a mudbrick waystation along desert trading routes, Riyadh is now one of the wealthiest cities in the world. The country’s political, financial and administrative capital is also a city with a fascinating subtext.`
+        <!-- Level 3 'WRITTEN BY...' Header -->
+        <h3 class="written-by">WRITTEN BY PHARRELL WILLIAMS</h3>
 
-SMALLER SUB HEAD
+        <!-- pararaph text 'PUBLISHED BY...' -->
+        <p class="published-by">PUBLISHED BY I AM OTHER ENTERTAINMENT, LLC</p>
 
-`History`
+        <!-- span text 'PHARRELLWILLIAMS.COM' -->
+        <span class="website">PHARRELLWILLIAMS.COM</span>
 
-PARAGRAPH 2
+        <!-- display the images hosted on [https://s3.amazonaws.com/learn-verified/columbia-logo.png] -->
+        <img class="columbia-logo" src="https://s3.amazonaws.com/learn-verified/columbia-logo.png" alt="Columbia Records Logo">
 
-`Riyadh (/rɨˈjɑːd/; Arabic: الرياض‎ ar-Riyāḍ pronounced [arːiˈjɑːdˤ],"The Gardens") is the capital and largest city of Saudi Arabia. It is also the capital of Riyadh Province, and belongs to the historical regions of Najd and Al-Yamama. It is situated in the center of the Arabian Peninsula on a large plateau, and is home to 5,254,560 people, and the urban center of a region with a population of close to 7 million people.`
+        <!-- span text 'COLUMBIARECORDS.COM' -->
+        <span class="website">COLUMBIARECORDS.COM</span>
 
-IMAGE 2 FILE
+        <br>
 
-`garden.jpg`
+        <!-- display the images hosted on [https://s3.amazonaws.com/learn-verified/sony-logo.png] -->
+        <img class="sony-logo" src="https://s3.amazonaws.com/learn-verified/sony-logo.png" alt="Sony Music Logo">
 
-IMAGE 2 ALT TEXT
-
-`Riyadh Garden`
-
-PARAGRAPH 3
-
-`The city is divided into 15 municipal districts, managed by Riyadh Municipality headed by the mayor of Riyadh, and the Riyadh Development Authority, chaired by the governor of Riyadh Province, Khalid bin Bandar Al Saud. The current mayor of Riyadh is Abdullah bin Abdul Rahman Al Mogbel, appointed in 2012. Riyadh has the largest all female university in the world, the Princess Nora bint Abdulrahman University. It has been designated as a Beta World City.`
-
-IMAGE 3 FILE
-
-`camels-in-truck.jpg`
-
-IMAGE 3 ALT TEXT
-
-`The roads of Riyadh`
-
-SMALLER SUB HEAD
-
-`Sources`
-
-LINK 1
-
-`Lonely Planet`
-`http://www.lonelyplanet.com/saudi-arabia/riyadh`
-
-LINK 2
-
-`Wikipedia`
-`http://en.wikipedia.org/wiki/Riyadh`
+      </div>
+    </div>
+  </body>
+</html>
